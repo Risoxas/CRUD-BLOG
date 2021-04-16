@@ -1,0 +1,36 @@
+$margin-name:4px 10px 4px 0px;
+
+.seccion-user{
+    margin-bottom: 6px;
+    .user{
+        margin: $margin-name;
+    }
+}
+
+.size{
+    width: 100px;
+    height: 100px;
+}
+
+.stacked-post{
+    padding: 0;
+}
+
+.autor-post-right{
+    font-size: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.user-comment{
+    margin: $margin-name;
+}
+
+.borde{
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    padding: 2rem;
+}

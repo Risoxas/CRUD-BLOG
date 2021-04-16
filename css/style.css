@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.seccion-user {
+  margin-bottom: 6px;
+}
+
+.seccion-user .user {
+  margin: 4px 10px 4px 0px;
+}
+
+.size {
+  width: 100px;
+  height: 100px;
+}
+
+.stacked-post {
+  padding: 0;
+}
+
+.autor-post-right {
+  font-size: 1rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.user-comment {
+  margin: 4px 10px 4px 0px;
+}
+
+.borde {
+  border: 1px solid #eaeaea;
+  border-radius: 7px;
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
