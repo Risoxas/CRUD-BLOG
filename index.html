@@ -24,21 +24,22 @@
                 <div class="modal-body">
                     <form action="">
                         <div class="form-group">
+                            <label for="">Titulo de post</label>
+                            <input type="text" name="title" id="title" class="form-control">
+                        </div>
+                        <div class="form-group">
                             <textarea name="content" id="content" cols="60" rows="10"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="">imagen de portada</label>
                             <input type="text" name="url" id="url" class="form-control">
                         </div>
-                        <div class="form-group">
-                            <label for="">Titulo de post</label>
-                            <input type="text" name="title" id="title" class="form-control">
-                        </div>
                     </form>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" id="post" class="btn btn-primary" >Guardar</button>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button:button>
-                        <button type="button" id="post" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+
                 </div>
             </div>
         </div>
@@ -85,7 +86,7 @@
                     <div class="reply-form">
                         <form action="">
                             <div class="form-group d-flex">
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control reply">
                                 <button class="btn btn-success">></button>
                             </div>
                         </form>
@@ -94,7 +95,10 @@
             </div>
         </div>
     </div>
+
+
     <div id="content-wrapper"></div>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
